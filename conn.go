@@ -776,7 +776,7 @@ func (c *Conn) handleIncomingPacket(ctx context.Context, buf []byte, rAddr net.A
 		c.log.Debugf("discarded duplicated packet (epoch: %d, seq: %d)",
 			h.Epoch, h.SequenceNumber,
 		)
-		return false, nil, nil
+		// return false, nil, nil
 	}
 
 	// originalCID indicates whether the original record had content type
