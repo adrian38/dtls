@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	idtlsnet "github.com/pion/dtls/v2/internal/net"
-	dtlsnet "github.com/pion/dtls/v2/pkg/net"
+	idtlsnet "github.com/adrian38/dtls/v2/internal/net"
+	dtlsnet "github.com/adrian38/dtls/v2/pkg/net"
 	"github.com/pion/transport/v3/deadline"
 )
 

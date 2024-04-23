@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/dtls/v2/pkg/crypto/selfsign"
-	dtlsnet "github.com/pion/dtls/v2/pkg/net"
+	"github.com/adrian38/dtls/v2/pkg/crypto/selfsign"
+	dtlsnet "github.com/adrian38/dtls/v2/pkg/net"
 	"github.com/pion/transport/v3/dpipe"
 	"github.com/pion/transport/v3/test"
 )

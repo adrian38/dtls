@@ -4,7 +4,7 @@
 package recordlayer
 
 import (
-	"github.com/pion/dtls/v2/pkg/protocol"
+	"github.com/adrian38/dtls/v2/pkg/protocol"
 	"golang.org/x/crypto/cryptobyte"
 )
 

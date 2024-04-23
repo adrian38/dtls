@@ -11,8 +11,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/pion/dtls/v2/pkg/protocol"
-	"github.com/pion/dtls/v2/pkg/protocol/alert"
+	"github.com/adrian38/dtls/v2/pkg/protocol"
+	"github.com/adrian38/dtls/v2/pkg/protocol/alert"
 )
 
 // Typed errors

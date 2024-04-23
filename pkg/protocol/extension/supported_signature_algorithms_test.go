@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pion/dtls/v2/pkg/crypto/hash"
-	"github.com/pion/dtls/v2/pkg/crypto/signature"
-	"github.com/pion/dtls/v2/pkg/crypto/signaturehash"
+	"github.com/adrian38/dtls/v2/pkg/crypto/hash"
+	"github.com/adrian38/dtls/v2/pkg/crypto/signature"
+	"github.com/adrian38/dtls/v2/pkg/crypto/signaturehash"
 )
 
 func TestExtensionSupportedSignatureAlgorithms(t *testing.T) {

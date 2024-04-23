@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/dtls/v2"
-	"github.com/pion/dtls/v2/pkg/crypto/selfsign"
+	"github.com/adrian38/dtls/v2"
+	"github.com/adrian38/dtls/v2/pkg/crypto/selfsign"
 	"github.com/pion/transport/v3/test"
 )
 
