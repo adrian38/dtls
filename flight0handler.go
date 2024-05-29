@@ -102,13 +102,14 @@ func flight0Parse(_ context.Context, _ flightConn, state *State, cache *handshak
 		}
 	}
 
-	nextFlight := flight2
+	// nextFlight := flight2
 
-	if cfg.insecureSkipHelloVerify {
-		nextFlight = flight4
-	}
+	// if cfg.insecureSkipHelloVerify {
+	// 	nextFlight = flight4
+	// }
 
-	return handleHelloResume(clientHello.SessionID, state, cfg, nextFlight)
+	// return handleHelloResume(clientHello.SessionID, state, cfg, nextFlight)
+	return flight2, nil, nil
 }
 
 func handleHelloResume(sessionID []byte, state *State, cfg *handshakeConfig, next flightVal) (flightVal, *alert.Alert, error) {
